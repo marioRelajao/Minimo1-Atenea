@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c51f52-e4b5-4dd1-b607-cbce21d3eb46" name="Changes" comment="Primer Commit - Mod. of Swagger plus some models">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="91c51f52-e4b5-4dd1-b607-cbce21d3eb46" name="Changes" comment="Segon commit - Si para el 3ro no he muerto maravilloso">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/ShopManagerImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-example2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-example2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/TracksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/TracksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/ShopManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upc/dsa/services/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/TextServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/upc/dsa/TextServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/MyExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/MyExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/TracksManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/TracksManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/models/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/models/Track.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/services/TextService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/services/TextService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/services/TracksService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/services/TracksService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/upc/dsa/util/RandomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/upc/dsa/util/RandomUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
       <recent name="edu.upc.dsa.models" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.upc.dsa.Main" />
       <module name="rest-example2" />
@@ -79,9 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopManagerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-example2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.upc.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.upc.dsa" />
+      <option name="MAIN_CLASS_NAME" value="edu.upc.dsa.ShopManagerImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ShopManagerImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668018800572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Segon commit - Si para el 3ro no he muerto maravilloso">
+      <created>1668027661079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668027661079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer Commit - Mod. of Swagger plus some models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer Commit - Mod. of Swagger plus some models" />
+    <MESSAGE value="Segon commit - Si para el 3ro no he muerto maravilloso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segon commit - Si para el 3ro no he muerto maravilloso" />
   </component>
 </project>

@@ -148,6 +148,32 @@ public class ShopManagerImpl implements ShopManager{
     }
 
     @Override
+    public List<Objecte> getAllObjects() {
+
+        return this.objectes;
+    }
+
+    @Override
+    public List<Objecte> sortNumObjectes() {
+        if(sizeObjects()==0){
+            logger.info("Empty object list, can't sort");
+            return null;
+        }
+        objectes.sort((Objecte o1, Objecte o2) -> Integer.compare(o2.getDsaCoins(), o1.getDsaCoins()));
+        return this.objectes;
+    }
+
+    @Override
+    public User getUser(String id) {
+        return this.users.get(id);
+    }
+
+    @Override
+    public List<Objecte> getObjectes(User t) {
+        return t.getBoughtObjects();
+    }
+
+    @Override
     public Objecte addObject(Objecte objecte) {
         logger.info("Trying to add object:" + objecte);
         if(getObject(objecte.getName())==null){

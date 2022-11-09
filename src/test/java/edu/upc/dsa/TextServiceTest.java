@@ -17,7 +17,7 @@ public class TextServiceTest {
     private WebTarget target;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
         // start the server
         server = Main.startServer();
         // create the client

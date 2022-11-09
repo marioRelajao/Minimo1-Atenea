@@ -25,4 +25,12 @@ public interface ShopManager { //Interficie con funciones para hacer lo que pide
     public List<User> getAllUsers();
     int sizeObjects();
     VOcredentials getCredentials(User u);
+
+    List<Objecte> getAllObjects();
+
+    List<Objecte> sortNumObjectes();
+
+    User getUser(String id);
+
+    List<Objecte> getObjectes(User t);
 }
