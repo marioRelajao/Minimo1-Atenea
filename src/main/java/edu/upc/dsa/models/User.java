@@ -29,6 +29,13 @@ public class User {  //El enunciado pide nombre, apellido, fechaNac, correo y pa
 
     public User (VOuser vouser){
         this.id = vouser.getId();
+        this.name = vouser.getName();
+        this.surnames = vouser.getSurnames();
+        this.bday = vouser.getBday();
+        this.pass = vouser.getPass();
+        this.mail = vouser.getMail();
+        this.dsaCoins = 50;
+        this.boughtObjects = new LinkedList<>();
     }
 //----------- GETTERS/SETTERS --------------
     public String getId() {
@@ -93,5 +100,14 @@ public class User {  //El enunciado pide nombre, apellido, fechaNac, correo y pa
 
     public void setBoughtObjects(LinkedList<Objecte> boughtObjects) {
         this.boughtObjects = boughtObjects;
+    }
+
+    public Objecte buyObject(Objecte thingie) {
+       if(this.dsaCoins >= thingie.getDsaCoins()){
+           this.dsaCoins = this.dsaCoins - thingie.getDsaCoins();
+           this.boughtObjects.add(thingie);
+           return thingie;
+       }
+       return null;
     }
 }
