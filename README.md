@@ -1,6 +1,6 @@
 # Minimo1-Atenea
 Minim per estudiar examen  
-Mil gracias a las repos para hacer ingeniería inversa de los minimos:
+Mil gracias a las siguientes repos para hacer ingeniería inversa de los minimos:
 
 ## O PROFESSOR  
 https://github.com/jlopezr?tab=repositories  
